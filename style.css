@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center;
+    font-family: monospace;
+}
+
+.container {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 20px;
+    width: 66px;
+    font-family: monospace;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.row {
+    margin: 3px;
+}
+
+.container input {
+    width: 270px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
